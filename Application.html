@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Computer science department - Application </title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <header class="header-container">
+            <h1> <a href="index.html"> Computer Science Department </a></h1>
+        </header>
+
+        <h2 class="intro-head"> Computer Science Major Application Form </h2>
+    <div class="container">
+        <form method="post" action="page.html">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Email Address">
+            <input type="text" placeholder="Address">
+            <input type="text" placeholder="City">
+            <input type="text" placeholder="State" list="states">
+            <input type="text" placeholder="Zip code">
+
+            <label> <h3> Interest Area </h3> </label>
+
+            <select name="Interested Area" required>
+                <option value="" disabled selected> Interested Area </option>
+                <option value="Artificial Intelligent"> Artificial Intelligent </option>
+                <option value="Software Engineer"> Software Engineer </option>
+                <option value="Cybersecurity Engineer">Cybersecurity Engineer</option>
+                <option value="Data Engineering">Data Engineering</option>
+            </select>
+        </form>
+    </div>
+    <datalist id="states">
+        <option value="Alabama">
+        <option value="Alaska">
+        <option value="Arizona">
+        <option value="Arkansas">
+        <option value="California">
+        <option value="Colorado">
+        <option value="Connecticut">
+        <option value="Delaware">
+        <option value="Florida">
+        <option value="Georgia">
+        <option value="Hawaii">
+        <option value="Idaho">
+        <option value="Illinois">
+        <option value="Indiana">
+        <option value="Iowa">
+        <option value="Kansas">
+        <option value="Kentucky">
+        <option value="Louisiana">
+        <option value="Maine">
+        <option value="Maryland">
+        <option value="Massachusetts">
+        <option value="Michigan">
+        <option value="Minnesota">
+        <option value="Mississippi">
+        <option value="Missouri">
+        <option value="Montana">
+        <option value="Nebraska">
+        <option value="Nevada">
+        <option value="New Hampshire">
+        <option value="New Jersey">
+        <option value="New Mexico">
+        <option value="New York">
+        <option value="North Carolina">
+        <option value="North Dakota">
+        <option value="Ohio">
+        <option value="Oklahoma">
+        <option value="Oregon">
+        <option value="Pennsylvania">
+        <option value="Rhode Island">
+        <option value="South Carolina">
+        <option value="South Dakota">
+        <option value="Tennessee">
+        <option value="Texas">
+        <option value="Utah">
+        <option value="Vermont">
+        <option value="Virginia">
+        <option value="Washington">
+        <option value="West Virginia">
+        <option value="Wisconsin">
+        <option value="Wyoming">
+    </datalist>
+    <button class="btn" type="submit">Submit</button>
+    </body>
+    <div>
+        <a href="index.html"><button class="btn">Cancel</button> </a>
+    </div>
+</html>
